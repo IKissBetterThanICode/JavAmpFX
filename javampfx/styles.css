@@ -1,0 +1,102 @@
+
+@font-face {
+    src: url("DigitalNormal-xO6j.otf");
+}
+
+
+#bgPane {
+            -fx-background-color: whitesmoke;
+}
+
+#previousButton {      
+    -fx-background-image: url("../img/prev.png");
+    -fx-border-color: SLATEBLUE;
+    -fx-border-width: 1;    
+}
+#playButton {      
+    -fx-background-image: url("../img/play.png");
+    -fx-border-color: SLATEBLUE;
+    -fx-border-width: 1;    
+}
+#pauseButton {      
+    -fx-background-image: url("../img/pause.png");
+    -fx-border-color: SLATEBLUE;
+    -fx-border-width: 1;
+
+}
+#stopButton {      
+    -fx-background-image: url("../img/stop.png");
+    -fx-border-color: SLATEBLUE;
+    -fx-border-width: 1;        
+}
+#replayButton {      
+    -fx-background-image: url("../img/reset.png");
+    -fx-border-color: SLATEBLUE;
+    -fx-border-width: 1;        
+}
+#nextButton {      
+    -fx-background-image: url("../img/next.png");
+    -fx-border-color: SLATEBLUE;
+    -fx-border-width: 1;    
+}
+#menuButton {      
+    -fx-background-image: url("../img/menu.png");
+    -fx-border-color: SLATEBLUE;
+    -fx-border-width: 1;    
+}
+#exitButton {      
+    -fx-background-image: url("../img/exit.png");
+    -fx-border-color: SLATEBLUE;
+    -fx-border-width: 1;    
+}
+#clearListButton {      
+    -fx-background-image: url("../img/trash.png");
+    -fx-border-color: SLATEBLUE;
+    -fx-border-width: 1;    
+}
+#attachPlaylistButton {      
+    -fx-background-image: url("../img/snap.png");
+    -fx-border-color: SLATEBLUE;
+    -fx-border-width: 1;    
+}
+#openButton {      
+    -fx-background-image: url("../img/open.png");
+    -fx-border-color: SLATEBLUE;
+    -fx-border-width: 1;    
+}
+#shuffleToggleButton {      
+    -fx-background-image: url("../img/shuffle.png");
+    -fx-border-color: SLATEBLUE;
+    -fx-border-width: 1;    
+}
+
+#volumeSlider:thumb {
+    -fx-control-inner-background: #1354cb; 
+}
+
+.progress-bar { 
+    -fx-accent: MAGENTA;
+}
+    
+.button {
+
+}
+
+
+/*.green-bar  { -fx-accent: green;  }
+.yellow-bar { -fx-accent: yellow; }
+.orange-bar { -fx-accent: orange; }
+.red-bar    { -fx-accent: red;    }*/
+
+#songLabel {
+        -fx-font-family: "Digital";
+        -fx-text-fill: SLATEBLUE;
+        -fx-font-size: 16px;
+}
+#timeLabel {
+        -fx-font-family: "Digital";
+        -fx-text-fill: greenyellow;
+        -fx-background-color: black;
+        -fx-font-size: 16px;
+}
+
